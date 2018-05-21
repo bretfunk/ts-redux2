@@ -1,0 +1,14 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "no-debugger": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
